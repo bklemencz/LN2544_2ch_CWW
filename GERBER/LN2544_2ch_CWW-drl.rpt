@@ -1,5 +1,5 @@
-Drill report for X:/LN2544_2ch_CWW/LN2544_2ch_CWW.kicad_pcb
-Created on 11/12/2017 10:55:00 AM
+Drill report for C:\Users\t9569bk\Documents\KiCad\LN2544_2ch_CWW\LN2544_2ch_CWW.kicad_pcb
+Created on 6/22/2017 3:55:51 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -7,16 +7,16 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'X:LN2544_2ch_CWW.drl' contains
+Drill file 'C:LN2544_2ch_CWW.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (324 holes)
-    T2  1.00mm  0.039"  (132 holes)
+    T1  0.40mm  0.016"  (23 holes)
+    T2  1.00mm  0.039"  (11 holes)
 
-    Total plated holes count 456
+    Total plated holes count 34
 
 
-Not plated through holes are merged with plated holes
+Drill file 'C:LN2544_2ch_CWW-NPTH.drl' contains
     unplated through holes:
     =============================================================
 
