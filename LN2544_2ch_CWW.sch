@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BK_Common
+LIBS:BK_LED_Drivers
 LIBS:LN2544_2ch_CWW-cache
 EELAYER 25 0
 EELAYER END
@@ -187,20 +189,6 @@ F 3 "" H 8100 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
-=======
-L R_SMD_0805 R9
-U 1 1 5945E4A8
-P 8300 5300
-F 0 "R9" H 8330 5320 50  0000 L CNN
-F 1 "1.4R" H 8330 5260 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 8350 5150 50  0001 C CNN
-F 3 "" H 8300 5300 50  0000 C CNN
-	1    8300 5300
-	1    0    0    -1  
-$EndComp
-$Comp
->>>>>>> 66a218810214a20d8c92f60d458e84d218a43f1e
 L R_SMD_0805 R12
 U 1 1 5945E4E6
 P 7350 5600
@@ -322,11 +310,7 @@ L R_SMD_0805 R11
 U 1 1 59460F59
 P 6550 5600
 F 0 "R11" H 6580 5620 50  0000 L CNN
-<<<<<<< HEAD
 F 1 "24k" H 6580 5560 50  0000 L CNN
-=======
-F 1 "12K" H 6580 5560 50  0000 L CNN
->>>>>>> 66a218810214a20d8c92f60d458e84d218a43f1e
 F 2 "Resistors_SMD:R_0805" H 6600 5450 50  0001 C CNN
 F 3 "" H 6550 5600 50  0000 C CNN
 	1    6550 5600
@@ -518,20 +502,6 @@ F 3 "" H 8300 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
-=======
-L R_SMD_0805 R2
-U 1 1 59463A01
-P 8500 2750
-F 0 "R2" H 8530 2770 50  0000 L CNN
-F 1 "1.4R" H 8530 2710 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 8550 2600 50  0001 C CNN
-F 3 "" H 8500 2750 50  0000 C CNN
-	1    8500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
->>>>>>> 66a218810214a20d8c92f60d458e84d218a43f1e
 L R_SMD_0805 R5
 U 1 1 59463A07
 P 7550 3050
@@ -584,11 +554,7 @@ L R_SMD_0805 R4
 U 1 1 59463A21
 P 6750 3050
 F 0 "R4" H 6780 3070 50  0000 L CNN
-<<<<<<< HEAD
 F 1 "24k" H 6780 3010 50  0000 L CNN
-=======
-F 1 "12K" H 6780 3010 50  0000 L CNN
->>>>>>> 66a218810214a20d8c92f60d458e84d218a43f1e
 F 2 "Resistors_SMD:R_0805" H 6800 2900 50  0001 C CNN
 F 3 "" H 6750 3050 50  0000 C CNN
 	1    6750 3050
@@ -779,7 +745,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 4950 8150 4850
 Connection ~ 8150 4850
-<<<<<<< HEAD
 Wire Wire Line
 	7350 5800 8100 5800
 Wire Wire Line
@@ -860,12 +825,4 @@ Text Notes 1875 1300 0    60   ~ 12
 Maximum input voltage: 36V DC\nNo input protection for efficiency
 Text Notes 8275 5650 0    60   ~ 12
 Below 300mA L1, L2 can be increased to 100uH
-=======
-Text Notes 4500 6850 0    60   ~ 0
-NTC 10K Vref=1.2V Regulation 0.05V<VNTC<0.25V\nWith RNTC 12.6K starts correcting at 55C\nreaches 0A at 100C
-Text Notes 9000 5400 0    60   ~ 0
-RCS=0.5/IledPeak\nRCS=0.5/0.350=1.4R\nPCS=0.350**1.4=0.17W
-Text Notes 2050 3050 0    60   ~ 0
-If R6,R7 populated, default LED off.
->>>>>>> 66a218810214a20d8c92f60d458e84d218a43f1e
 $EndSCHEMATC
