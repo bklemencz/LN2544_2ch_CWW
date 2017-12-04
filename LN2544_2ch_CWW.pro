@@ -1,4 +1,4 @@
-update=11/12/2017 10:31:30 AM
+update=Fri 24 Nov 2017 08:40:22 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/balazs/Downloads/stm32_pwm/BluePill/libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,13 +70,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=E:/Project/KiCad/KICad-Library/BK_Common
 LibName31=E:/Project/KiCad/KICad-Library/BK_LED_Drivers
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName32=bluepill_breakouts
